@@ -1,8 +1,8 @@
 package org.sourav.geeksforgeeks.LinkedList;
 
 public interface ILinkedList {
-    public void insertInBegining(int val);
-    public void insertAtEnd(int val);
+    public void insertInBegining(Node.SLL sll, int val);
+    public void insertAtEnd(Node.SLL sll, int val);
     public void insertAtMiddle(Node nd,int val);
     public void deleteInBegining(int val);
     public void deleteAtEnd(int val);
