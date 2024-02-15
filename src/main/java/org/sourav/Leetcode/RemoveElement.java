@@ -9,8 +9,25 @@ public class RemoveElement {
         System.out.println(removeElement(arr, val));
     }
 
-    private static int removeElement(final int[] arr, final int val) {
-        int r =0, w = 0;
+    private static int removeElement(final int[] nums, final int val) {
+        int i = 0, j = 0;
+
+        while (i < nums.length && j < nums.length) {
+            if (nums[j] == val) {
+                j++;
+            } else if (nums[j] != val && i < j) {
+                nums[i] = nums[j];
+                nums[j] = val; // {0,1,3,0,4,2,2,2}
+                i++;
+                j = i;
+            } else {
+                i++;
+                j++;
+            }
+        }
+        return i;
+
+       /* int r =0, w = 0;
         int n = arr.length;
 
         while (r < n) {
@@ -23,7 +40,7 @@ public class RemoveElement {
             }
 
         }
-        return w;
+        return w;*/
 
         /*int index = 0;
         for(int i = 0; i< arr.length; i++){

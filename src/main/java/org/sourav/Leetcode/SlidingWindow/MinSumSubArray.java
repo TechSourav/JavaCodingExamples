@@ -1,12 +1,10 @@
-package org.sourav.Leetcode;
-
-import java.util.Vector;
+package org.sourav.Leetcode.SlidingWindow;
 
 public class MinSumSubArray {
 
     public static void main(String[] args) {
-        int[] arr = {2,3,1,2,4,3};
-        System.out.println(minSubArrayLen2(7, arr));
+        int[] arr = {1,2,3,4,5};
+        System.out.println(minSubArrayLen2(11, arr));
     }
 
     // 1. Brute Force approach
@@ -46,6 +44,26 @@ public class MinSumSubArray {
             }
         }
         return min == Integer.MAX_VALUE ? 0 : min;
+
+        /*if (nums.length == 0) {
+            return 0;
+        }
+
+        int left = 0;
+        int minLen = Integer.MAX_VALUE;
+        int sum = nums[left];
+
+        for (int right = 1; right < nums.length; right++) {
+            sum = sum + nums[right];
+            while (sum > target) {
+                sum -= nums[left];
+                left++;
+            }
+            if (sum == target) {
+                minLen = Math.min(minLen, right - left + 1);
+            }
+        }
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;*/
 
     }
 

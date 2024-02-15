@@ -5,7 +5,7 @@ import org.sourav.practice.LL2;
 public class RemoveKthNode {
 
     public static void removeKthNodeFromEnd(LinkedList head, int k) {
-        LinkedList temp = head;
+        /*LinkedList temp = head;
         int len = 0;
         while (temp!=null) {
             len++;
@@ -23,6 +23,27 @@ public class RemoveKthNode {
         while (count != toBeDeleted) {
             count++;
             temp2 = temp2.next;
+        }
+        temp2.next = temp2.next.next;*/
+
+        int len = 0;
+        LinkedList temp = head;
+        while (temp != null) {
+            len++;
+            temp = temp.next;
+        }
+        int toBeDeleted = len - k;
+
+        if (toBeDeleted == 0) {
+            head = head.next;
+            return;
+        }
+
+        LinkedList temp2 = head;
+        int count = 1;
+        while (toBeDeleted != count) {
+            temp2 = temp2.next;
+            count++;
         }
         temp2.next = temp2.next.next;
     }
@@ -63,17 +84,17 @@ public class RemoveKthNode {
     }
 
     public static void main(String[] args) {
-        RemoveKthNode.LinkedList l = new RemoveKthNode.LinkedList(0);
-        l.next = new RemoveKthNode.LinkedList(1);
-        l.next.next = new RemoveKthNode.LinkedList(2);
-        l.next.next.next = new RemoveKthNode.LinkedList(3);
-        l.next.next.next.next = new RemoveKthNode.LinkedList(4);
+        RemoveKthNode.LinkedList l = new RemoveKthNode.LinkedList(1);
+        l.next = new RemoveKthNode.LinkedList(2);
+        l.next.next = new RemoveKthNode.LinkedList(3);
+        l.next.next.next = new RemoveKthNode.LinkedList(4);
+        l.next.next.next.next = new RemoveKthNode.LinkedList(5);/*
         l.next.next.next.next.next = new RemoveKthNode.LinkedList(5);
         l.next.next.next.next.next.next = new RemoveKthNode.LinkedList(6);
         l.next.next.next.next.next.next.next = new RemoveKthNode.LinkedList(7);
         l.next.next.next.next.next.next.next.next = new RemoveKthNode.LinkedList(8);
-        l.next.next.next.next.next.next.next.next.next = new RemoveKthNode.LinkedList(9);
-        removeKthNodeFromEnd(l, 4);
+        l.next.next.next.next.next.next.next.next.next = new RemoveKthNode.LinkedList(9);*/
+        removeKthNodeFromEnd(l, 2);
     }
 
 }

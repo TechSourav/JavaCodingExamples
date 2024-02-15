@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3511f473-2a60-431f-9fb5-ca27ad59d09e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/MinSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinSumSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sourav/AlgoExpert/linkedlist/RemoveKthNode$LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sourav/AlgoExpert/linkedlist/RemoveKthNode$LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/MinSumSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sourav/Leetcode/ThreeSum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +38,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -50,13 +67,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubsstringWithConcate">
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.LongestSubstring" />
+  <component name="RunManager" selected="Application.MinWIndowSubstring">
+    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.SlidingWindow.BuySellStock" />
       <module name="codingExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sourav.Leetcode.*" />
+          <option name="PATTERN" value="org.sourav.Leetcode.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.MinSumSubArray" />
+    <configuration name="GoodSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.SlidingWindow.GoodSubstring" />
       <module name="codingExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sourav.Leetcode.*" />
+          <option name="PATTERN" value="org.sourav.Leetcode.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsstringWithConcate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.SubsstringWithConcate" />
+    <configuration name="MaxSlidingwindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.SlidingWindow.MaxSlidingwindow" />
       <module name="codingExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sourav.Leetcode.*" />
+          <option name="PATTERN" value="org.sourav.Leetcode.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.ThreeSum" />
+    <configuration name="MinWIndowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.SlidingWindow.MinWIndowSubstring" />
       <module name="codingExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sourav.Leetcode.*" />
+          <option name="PATTERN" value="org.sourav.Leetcode.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.ThreeSumSmaller" />
+    <configuration name="MinWindowSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sourav.Leetcode.SlidingWindow.MinWindowSubsequence" />
       <module name="codingExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sourav.Leetcode.*" />
+          <option name="PATTERN" value="org.sourav.Leetcode.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubsstringWithConcate" />
-        <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.MinSumSubArray" />
-        <item itemvalue="Application.ThreeSumSmaller" />
-        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.MinWIndowSubstring" />
+        <item itemvalue="Application.MinWindowSubsequence" />
+        <item itemvalue="Application.GoodSubstring" />
+        <item itemvalue="Application.BuySellStock" />
+        <item itemvalue="Application.MaxSlidingwindow" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +294,9 @@
       <workItem from="1702810801198" duration="22017000" />
       <workItem from="1705113218151" duration="7283000" />
       <workItem from="1705544912383" duration="19057000" />
-      <workItem from="1706097104322" duration="25978000" />
+      <workItem from="1706097104322" duration="29378000" />
+      <workItem from="1706850349377" duration="41891000" />
+      <workItem from="1707297774743" duration="45253000" />
     </task>
     <servers />
   </component>
@@ -346,11 +365,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java</url>
           <line>13</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java</url>
@@ -669,17 +683,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java</url>
-          <line>25</line>
+          <line>42</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java</url>
-          <line>34</line>
+          <line>51</line>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java</url>
-          <line>16</line>
+          <line>33</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -826,12 +840,12 @@
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/MinSumSubArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinSumSubArray.java</url>
           <line>24</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/MinSumSubArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinSumSubArray.java</url>
           <line>37</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -887,6 +901,261 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SubsstringWithConcate.java</url>
           <line>75</line>
           <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RansomeNote.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/PalindromeNum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SIngleNumber.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ValidAnagram.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ValidAnagram.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ValidAnagram.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/Fibonacci.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/NumIdenticalPair.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/AverageOfSubArrays.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/DietPerformancce.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/DietPerformancce.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/DietPerformancce.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/FindAllAnagrams.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/RemoveElement.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SquaredArray.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveOnesFlip.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveOnes.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveOnes.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveOnesFlip.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/AlgoExpert/linkedlist/RemoveKthNode.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/isPrime.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/Product.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/general/Product.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/SubstringWithDistinctChar.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/RepeatedDNASequence.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/RepeatedDNASequence.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/RepeatedDNASequence.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxSlidingwindow.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxSumSubArray.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/LongestRepeatingCharReplacement.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinSumSubArray.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/BuySellStock.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/BuySellStock.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveOnes.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveOnes.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxConsecutiveAnswerKey.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/Twopointers/HappyNumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/Twopointers/HappyNumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/Twopointers/HappyNumber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ReverseString.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/ReverseString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/SubstringWithDistinctChar.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxSlidingwindow.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MaxSlidingwindow.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/GoodSubstring.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinWIndowSubstring.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinWindowSubsequence.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinWindowSubsequence.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sourav/Leetcode/SlidingWindow/MinWIndowSubstring.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="322" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

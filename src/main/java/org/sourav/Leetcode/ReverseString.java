@@ -3,7 +3,7 @@ package org.sourav.Leetcode;
 public class ReverseString {
 
     public static void main(String[] args) {
-        System.out.println(reverseWords("The Sky is Blue."));
+        System.out.println(reverseWords("The Sky  is Blue."));
     }
 
     public static String reverseWords(String s) {
@@ -15,7 +15,7 @@ public class ReverseString {
                 i--;
             }
             String word = s.substring(i+1,sub+1);
-            if(word.equals(""))
+            if(word.isEmpty())
                 continue;
             sb.append(word).append(" ");
         }

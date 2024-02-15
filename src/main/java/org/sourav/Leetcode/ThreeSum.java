@@ -14,7 +14,7 @@ public class ThreeSum {
     }
 
     public static List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums);
+        Arrays.sort(nums); // {-4,-1,-1,0,1,2}
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < nums.length && nums[i] <= 0; ++i)
             if (i == 0 || nums[i - 1] != nums[i]) {
@@ -32,8 +32,12 @@ public class ThreeSum {
                 --hi;
             } else {
                 res.add(Arrays.asList(nums[i], nums[lo++], nums[hi--]));
-                while (lo < hi && nums[lo] == nums[lo - 1])
+                while (lo < hi && nums[lo] == nums[lo - 1]) {
                     ++lo;
+                }
+                while (lo < hi && nums[hi] == nums[hi-1]) {
+                    --hi;
+                }
             }
         }
     }
