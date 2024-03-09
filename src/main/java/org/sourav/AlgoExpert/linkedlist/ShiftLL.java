@@ -19,13 +19,13 @@ public class ShiftLL {
 
     public static void main(String[] args) {
         ShiftLL.LinkedList ll2 = new ShiftLL.LinkedList(1);
-        ll2.next = new ShiftLL.LinkedList(3);
-        ll2.next.next = new ShiftLL.LinkedList(4);
-        ll2.next.next.next = new ShiftLL.LinkedList(5);
-        ll2.next.next.next.next = new ShiftLL.LinkedList(9);
-        ll2.next.next.next.next.next = new ShiftLL.LinkedList(10);
+        ll2.next = new ShiftLL.LinkedList(2);
+        ll2.next.next = new ShiftLL.LinkedList(3);
+        ll2.next.next.next = new ShiftLL.LinkedList(4);
+        ll2.next.next.next.next = new ShiftLL.LinkedList(5);
+        //ll2.next.next.next.next.next = new ShiftLL.LinkedList(10);
 
-        int k = -2;
+        int k = 2;
 
         ShiftLL.LinkedList l = shiftList(ll2, k);
     }
@@ -92,18 +92,19 @@ public class ShiftLL {
             elem = elem.next;
         }
 
-        int normK = k % size;
+        int normK = Math.abs(k) % size;
         if (normK == 0)
             return head;
         elem.next = head;
 
         LinkedList newHead = null;
-        int newEndIndex = size - normK;
+        int newEndIndex = k > 0 ? size - normK : normK;
 
         for (int i = 0; i <= newEndIndex; i++) {
             if (i == newEndIndex) {
                 newHead = elem.next;
                 elem.next = null;
+                break;
             }
             elem = elem.next;
         }

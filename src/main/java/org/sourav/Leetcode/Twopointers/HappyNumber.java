@@ -4,7 +4,7 @@ package org.sourav.Leetcode.Twopointers;
 public class HappyNumber {
 
     public static void main(String[] args) {
-        System.out.println(isHappy(23));
+        System.out.println(isHappy(24));
     }
 
     public static boolean isHappy(int n) {
