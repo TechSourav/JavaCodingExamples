@@ -6,27 +6,34 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.List;
+import java.util.Stack;
 
 import lombok.Data;
 
 public class ExecutionTime {
 
-    public static List<Integer> exclusiveTime(int n, List<String> events) {
-        Deque<Event> stack = new ArrayDeque<>();
-        List<Integer> result = new ArrayList<Integer>(Collections.nCopies(n, 0));
-        for (String content: events) {
-            Event event = new Event(content);
+    public static int[] exclusiveTime(int n, List<String> logs) {
+        final Stack<Event> stack = new Stack<>();
+        int[] ans = new int[n];
+
+        for (final String content: logs) {
+            final Event event = new Event(content);
             if (event.isStart()) {
                 stack.push(event);
             } else {
-                Event top = stack.pop();
-                result.set(top.getId(), result.get(top.getId()) + (event.getTime() - top.getTime() + 1));
+                final Event top = stack.pop();
+                final int totalTime = event.getTime() - top.getTime() + 1;
+
+                ans[top.getId()] += totalTime;
+
+                // This is because we have to calculate the total time of the stack.peek() log based on the entire timeframe
                 if (!stack.isEmpty()) {
-                    result.set(stack.peek().getId(), result.get(stack.peek().getId()) - (event.getTime() - top.getTime() + 1));
+                    ans[stack.peek().getId()] -= totalTime;
                 }
             }
         }
-        return result;
+
+        return ans;
     }
 
     // Driver code
@@ -43,7 +50,7 @@ public class ExecutionTime {
         for (int i = 0; i<n.size(); i++) {
             System.out.println(x + ".\tn = " + n.get(i));
             System.out.println("\tevents = " + events.get(i));
-            System.out.println("\tOutput: " + exclusiveTime(n.get(i), events.get(i)));
+            System.out.println("\tOutput: " + Arrays.toString(exclusiveTime(n.get(i), events.get(i))));
             System.out.println(new String(new char[100]).replace('\0', '-'));
             x += 1;
         }

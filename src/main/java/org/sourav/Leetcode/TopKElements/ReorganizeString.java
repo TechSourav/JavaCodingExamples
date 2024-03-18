@@ -53,6 +53,7 @@ public class ReorganizeString {
         for (char c : s.toCharArray()) {
             charCounts[c - 'a']++;
         }
+
         int maxCount = 0, letter = 0;
         for (int i = 0; i < charCounts.length; i++) {
             if (charCounts[i] > maxCount) {
@@ -60,9 +61,11 @@ public class ReorganizeString {
                 letter = i;
             }
         }
+
         if (maxCount > (s.length() + 1) / 2) {
             return "";
         }
+
         char[] ans = new char[s.length()];
         int index = 0;
 
