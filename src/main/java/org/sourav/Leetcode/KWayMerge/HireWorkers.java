@@ -4,7 +4,7 @@ import java.util.*;
 
 public class HireWorkers {
 
-    static class Worker {
+    /*static class Worker {
         double ratio;
         int quality;
 
@@ -46,12 +46,52 @@ public class HireWorkers {
             minCost = Math.min(minCost, cost);
         }
         return minCost;
+    }*/
+
+    class Worker implements Comparable<Worker> {
+
+        final int q, w;
+
+        public Worker(int q, int w) {
+            this.q = q;
+            this.w = w;
+        }
+
+        @Override
+        public int compareTo(Worker other) {
+            return Integer.compare(this.w * other.q, this.q * other.w);
+        }
+    }
+
+    public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
+        int n = quality.length;
+        Worker[] a = new Worker[n];
+
+        for (int i = 0; i < n; ++i) {
+            a[i] = new Worker(quality[i], wage[i]);
+        }
+
+        Arrays.sort(a);
+
+        int s = 0;
+        double res = 1e15;
+        PriorityQueue<Integer> q = new PriorityQueue<>();
+
+        for (Worker worker : a) {
+            q.add(-worker.q);
+            s += worker.q;
+            if (q.size() > k)
+                s += q.poll();
+            if (q.size() == k)
+                res = Math.min(res, (double)s * worker.w / worker.q);
+        }
+        return res;
     }
 
     public static void main(String[] args) {
         HireWorkers workers = new HireWorkers();
-        int[] quality = {10, 20, 5};
-        int[] expWage = {70, 50, 30};
+        int[] quality = { 10, 20, 5 };
+        int[] expWage = { 70, 50, 30 };
         System.out.println(workers.mincostToHireWorkers(quality, expWage, 2));
     }
 }

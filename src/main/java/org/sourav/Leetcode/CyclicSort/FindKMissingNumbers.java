@@ -8,34 +8,34 @@ import java.util.Set;
 public class FindKMissingNumbers {
 
     public static void main(String[] args) {
-        int[] a = {1,1,1,1,1,1,1,1,1};
-        System.out.println(findKMissingNum(a, 7));
+        int[] a = {10,9,8,5,3,1,-5,-10,-11,-99};
+        System.out.println(findKMissingNum(a, 5));
     }
 
     private static List<Integer> findKMissingNum(int[] arr, int k) {
         int n = arr.length;
         List<Integer> ans = new ArrayList<>();
         int i = 0;
-        while (i < arr.length) {
-            if (arr[i] > 0 && arr[i] < arr.length && arr[i] != arr[arr[i]-1]) {
-                swap(arr, i, arr[i]-1);
+        while (i < n) {
+            if (arr[i] > 0 && arr[i] < n && arr[i] != arr[arr[i]-1]) {
+                swap(arr,i,arr[i]-1);
             } else {
                 i++;
             }
         }
 
-        Set<Integer> set = new HashSet<>();
-        for (int j = 0; j < arr.length & ans.size() < k; j++) {
+        final Set<Integer> set = new HashSet<>();
+        for (int j = 0; j < n && ans.size() < k; j++) {
             if (arr[j] != j+1) {
-                if (!set.contains(j + 1)) {
-                    ans.add(j + 1);
+                if (!set.contains(j+1)) {
+                    ans.add(j+1);
                 }
                 set.add(arr[j]);
             }
         }
         int m = 1;
         while (ans.size() < k) {
-            int tba = arr.length + m++;
+            int tba = n + m++;
             if (!set.contains(tba)) {
                 ans.add(tba);
             }

@@ -3,7 +3,6 @@ package org.sourav.AlgoExpert.linkedlist;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 public class LRUCache {
 
@@ -12,7 +11,7 @@ public class LRUCache {
         lruCache.insertKeyValuePair("b", 2);
         lruCache.insertKeyValuePair("a", 1);
         lruCache.insertKeyValuePair("c", 3);
-        assertTrue(lruCache.getMostRecentKey() == "c");
+        /*assertTrue(lruCache.getMostRecentKey() == "c");
         assertTrue(lruCache.getValueFromKey("a").value == 1);
         assertTrue(lruCache.getMostRecentKey() == "a");
         lruCache.insertKeyValuePair("d", 4);
@@ -21,7 +20,7 @@ public class LRUCache {
         lruCache.insertKeyValuePair("a", 5);
         assertTrue(lruCache.getValueFromKey("a").value == 5);
 
-        /*MyLRUCache cache = new MyLRUCache(4);
+        MyLRUCache cache = new MyLRUCache(4);
         cache.insertKeyValuePair("b", 2);
         cache.insertKeyValuePair("a", 1);
         cache.insertKeyValuePair("c", 3);

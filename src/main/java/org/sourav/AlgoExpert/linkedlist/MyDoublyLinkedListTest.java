@@ -3,8 +3,6 @@ package org.sourav.AlgoExpert.linkedlist;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.Test;
-
 class MyDoublyLinkedListTest {
     private List<Integer> getNodeValuesHeadToTail(MyDoublyLinkedList.DoublyLinkedList linkedList) {
         List<Integer> values = new ArrayList<Integer>();
@@ -43,7 +41,7 @@ class MyDoublyLinkedListTest {
         return true;
     }
 
-    @Test
+    //@Test
     public void TestCase1() {
         MyDoublyLinkedList.DoublyLinkedList linkedList = new MyDoublyLinkedList.DoublyLinkedList();
         MyDoublyLinkedList.Node one = new MyDoublyLinkedList.Node(1);
