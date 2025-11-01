@@ -30,6 +30,10 @@ public class MaxSlidingwindow {
         output[0] = nums[currentWindow.getFirst()];
         for (int i = w; i < nums.length; i++) {
             cleanUp(i, currentWindow, nums);
+            /*
+             * part of the sliding window maximum algorithm and is responsible for
+             * removing indices that are no longer within the current window range
+             */
             if (!currentWindow.isEmpty() && currentWindow.getFirst() <= (i - w)) {
                 currentWindow.removeFirst();
             }
